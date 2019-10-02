@@ -7,16 +7,6 @@ import Navbar from "./components/Navbar";
 
 import "./styles.scss";
 
-function useLocalStorage ( key, initialValue){
-
-  const [storedValue, setStoredValue] = useState(() => {
-    
-  })
-
-  return ()
-}
-
-
 const App = () => {
   const [coinData, setCoinData] = useState([]);
 
